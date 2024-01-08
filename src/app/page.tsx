@@ -1,4 +1,5 @@
 import { NotesList } from '@/components/notesList';
+import { RefreshBtn } from '@/components/refreshBtn';
 import { Spinner } from '@/components/spinner';
 import { TimerCounter } from '@/components/timerCounter';
 import { Suspense } from 'react';
@@ -11,6 +12,7 @@ export default function Home() {
           <NotesList />
         </Suspense>
         <TimerCounter />
+        <RefreshBtn /> {/* SCだけ再レンダリングできる */}
       </div>
     </main>
   );
