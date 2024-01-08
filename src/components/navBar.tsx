@@ -1,6 +1,6 @@
 import Link from 'next/link';
 
-export const NavBar = () => {
+export const NavBar = async () => {
   return (
     <header className="bg-gray-800 p-4">
       <nav className="space-x-4">
