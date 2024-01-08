@@ -25,3 +25,7 @@ First, run the development server:
 ```bash
 docker compose up -d --build
 ```
+
+## When adding library
+
+docker compose up again.
