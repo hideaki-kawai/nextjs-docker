@@ -1,5 +1,6 @@
 import { format } from 'date-fns';
 import noteMock from '@/tests/mocks/noteMock.json';
+import { Spinner } from './spinner';
 
 type Note = {
   id: number;
@@ -8,7 +9,7 @@ type Note = {
 };
 
 const fetchNotes = async (): Promise<Note[]> => {
-  await new Promise(resolve => setTimeout(resolve, 2000));
+  await new Promise(resolve => setTimeout(resolve, 5000));
   return noteMock;
 };
 
