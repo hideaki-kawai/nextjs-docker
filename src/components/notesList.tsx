@@ -1,6 +1,5 @@
 import { format } from 'date-fns';
 import noteMock from '@/tests/mocks/noteMock.json';
-import { Spinner } from './spinner';
 
 type Note = {
   id: number;
